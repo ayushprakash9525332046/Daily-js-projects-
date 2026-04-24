@@ -1,1 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #111;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.calculator{
+  background: #a12828;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+
+#userinput{
+    width: 100%;
+    height: 40px;
+    text-align: right;
+    font-size: 18px;
+    color: blue;
+}
+
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,80px);
+    gap: 20px;
+    padding: 10px;
+}
+
+button{
+    height:40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
 
